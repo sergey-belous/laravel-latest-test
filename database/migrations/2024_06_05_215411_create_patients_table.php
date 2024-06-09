@@ -16,8 +16,6 @@ return new class extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->timestamp('birth_date');
-            $table->integer('age');
-            $table->char('age_type');
             $table->index(['id', 'first_name', 'last_name'], 'default_index');
             $table->timestamps();
 
