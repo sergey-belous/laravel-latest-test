@@ -9,6 +9,16 @@
 
 ## Laravel first test
 
+
+Works json as for example:
+{
+    "first_name": "test",
+    "last_name" : "test",
+    "birth_date": "03.03.2024"
+}
+post to /api/patient
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
